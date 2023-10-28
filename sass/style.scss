@@ -614,13 +614,27 @@ h1, h2, h3, h4, h5, h6, figure {
 .timeline-title {
    margin-top: 0;
 }
-.company{
+
+/* Beautiful Typography for Company Info */
+.company {
 	display: block;
 	margin-bottom: 20px;
-	font-size: 16px;
-	font-weight: normal;
-	color: lighten($brand-black, 75%);
-}
+	font-size: 20px; /* Increase font size for emphasis */
+	font-weight: bold; /* Use a bolder font-weight for a stronger impact */
+	color: #333; /* Change the text color to a darker shade for better contrast */
+	font-family: "Arial", sans-serif; /* Use a clean, widely supported font */
+	text-transform: uppercase; /* Transform text to uppercase */
+	letter-spacing: 1px; /* Add subtle letter-spacing for readability */
+	line-height: 1.4; /* Adjust line height for better spacing */
+	text-align: center; /* Center align the text */
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Add a subtle text shadow */
+	transition: color 0.3s ease-in-out;
+  }
+  
+  .company:hover {
+	color: #FF9000; /* Change color on hover for a dynamic effect */
+  }
+  
 
 .timeline-body > p,
 .timeline-body > ul {
